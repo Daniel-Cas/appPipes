@@ -1,18 +1,6 @@
 
-<div class="text-layout">
+<app-menu></app-menu>
 
-  <h1> {{ nombre | titlecase }}</h1>
-  <h1> {{ valor | number}}</h1>
-  <h1> {{ obj | json }}</h1>
-</div>
+<router-outlet></router-outlet>
 
 
-<button pButton type="button" label="Cambiar nombre"  class="p-button-help" icon="pi pi-cloud" iconPos="right"></button>
-
-
-<p-card [header]=" nombre | titlecase" subheader="This is a subtitle" >
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis iste quibusdam nihil consectetur iure! Corrupti commodi quaerat debitis quam quae voluptate laboriosam illo numquam corporis, quasi eligendi voluptatem placeat sequi.
-  <ng-template pTemplate="footer">
-    {{ valor | currency}}
-</ng-template>
-</p-card>
