@@ -10,7 +10,7 @@ export class NumerosComponent   {
 
 
   ventasNetas: number = 5800000.654;
-  porcentaje : number = 0.48;
+  porcentaje : number = 0.4856;
 
   constructor() { }
 
