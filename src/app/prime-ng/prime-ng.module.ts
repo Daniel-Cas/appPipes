@@ -1,8 +1,12 @@
-import { CardModule } from 'primeng/card';
-import { ButtonModule } from 'primeng/button';
 import { NgModule } from '@angular/core';
-import { MenubarModule } from 'primeng/menubar';
+
+// importaciones propias de PrimeNG
+import { ButtonModule } from 'primeng/button';
+import { CardModule } from 'primeng/card';
 import { FieldsetModule } from 'primeng/fieldset';
+import { MenubarModule } from 'primeng/menubar';
+import { TableModule } from 'primeng/table';
+import { ToolbarModule} from 'primeng/toolbar';
 
 
 
@@ -11,8 +15,10 @@ import { FieldsetModule } from 'primeng/fieldset';
   exports: [
     ButtonModule,
     CardModule,
+    FieldsetModule,
     MenubarModule,
-    FieldsetModule
+    TableModule,
+    ToolbarModule
   ]
 })
 export class PrimeNgModule { }
